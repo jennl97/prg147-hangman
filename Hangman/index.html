@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<header><h1>Jenn's Hangman Game</h1></header>
+<body class="w3 container constrain">
+<div class="w3-row">
+    <div class="w3-row">
+        <p id="guess"><strong>You have 10 guesses left!</strong></p>
+        <p id="game"></p>
+
+        <form name="form1">
+            <label class="w3-label">Input letter here, and click guess:
+                <input name="letter" id="letter" type="text" size="3" maxlength="3">
+            </label>
+            <input type="button" name="submit" id="submit" value="Click Here!">
+        </form>
+    </div>
+    <div class="w3-half">
+        <img id="image" src="images/img00.png" class="w3-border w3-padding" alt="hangman">
+    </div>
+</div>
+</body>
+</html>
